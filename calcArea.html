@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="b3.js" defer></script>
+    <title>Fun With Triangles</title>
+</head>
+<body>
+    <div class="header"></div>
+    <div class="desc">Select an option below as per the data you have for a triangle
+    </div>
+    <div class="input">
+        <input type="radio" id="baseHeight">
+        <label for="baseHeight">If you have base and height length</label><br>
+
+        <input type="radio" id="baseHeight">
+        <label for="baseHeight">If you have length of 3 sides</label><br>
+
+        <input type="radio" id="sideAngle">
+        <label for="sideAngle">If you have length of 2 sides and included angle</label><br>
+    </div>
+
+    <div class="input-req">
+        <div id="bH">
+            <label for="base">Base = </label><input id="base" type="number">
+            <label for="height">Height = </label><input id="height" type="number">
+            <button id="button" onClick="calculateBH()">submit</button>
+        </div>
+
+        <div id="threeSides">
+            <label for="a">a = </label><input id="a" type="number">
+            <label for="b">b = </label><input id="b" type="number">
+            <label for="c">c = </label><input id="c" type="number">            
+            <button id="button" onClick="calculateThree()">submit</button>
+        </div>
+
+        <div id="sA">
+            <label for="sideA">b = </label><input id="sA" type="number">
+            <label for="sideB">c = </label><input id="sB" type="number">
+            <label for="angle">angle a = </label><input id="aA" type="number">
+            <button id="button" onClick="calculateSA()">submit</button>
+        </div>
+
+        
+        
+    </div>
+
+    <div class="ouput" id="output">output shown here</div>
+</body>
+</html>
