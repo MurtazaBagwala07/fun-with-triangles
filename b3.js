@@ -36,11 +36,11 @@ function calculateSA(){
     var i=sideOne.value;
     var j=sideTwo.value;
     var k=angleOne.value;
-    
+    console.log(j);
     var angleToRadian = k * 3.14 /180;
 
-    var result = i * j * Math.sin(angleToRadian);
-    console.log(i);
+    var result = (i * j * Math.sin(angleToRadian))/2;
+    
     outp.innerHTML = result;
 
 }
