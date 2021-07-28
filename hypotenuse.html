@@ -5,21 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="b2.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styleSub1.css">
     <title>Fun With Triangles</title>
 </head>
 <body>
-    <div class="header"></div>
+    <div class="header">
+        <a href="index.html"><button class="goBack"><i class="fas fa-caret-left"></i> Back</button></a>
+    </div>
     <div class="desc">Enter the lengths of sides of right angle triangle
 
     </div>
     <div class="input">
-        <input id="a1" type="number">
-        <input id="a2" type="number">
+        <input id="a1" type="number" min="1">
+        <input id="a2" type="number" min="1">
         
     </div>
     <div class="but">
         <button id="button" onClick="calcHypo()">submit</button>
     </div>
-    <div class="ouput" id="output">output shown here</div>
+    <div class="oup" id="output">output shown here</div>
 </body>
 </html>

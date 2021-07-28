@@ -4,22 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styleSub1.css">
     <script src="b1.js" defer></script>
     <title>Fun With Triangles</title>
 </head>
 <body>
-    <div class="header"></div>
+    <div class="header">
+        <a href="index.html"><button class="goBack"><i class="fas fa-caret-left"></i> Back</button></a>
+    </div>
     <div class="desc">Enter the angles in below input boxes and we will tell you if those angles make a Triangle
 
     </div>
     <div class="input">
-        <input id="a1" type="number">
-        <input id="a2" type="number">
-        <input id="a3" type="number">
+        <input id="a1" type="number" min="1">
+        <input id="a2" type="number" min="1">
+        <input id="a3" type="number" min="1">
     </div>
     <div class="but">
-        <button id="button" onClick="calc()">submit</button>
+        <button id="button" class="b" onClick="calc()">submit</button>
     </div>
-    <div class="ouput" id="output">output shown here</div>
+    <div class="oup" id="output">output shown here</div>
 </body>
 </html>
