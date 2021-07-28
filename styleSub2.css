@@ -66,3 +66,19 @@ display: inline-block;
     margin: auto;
 }
 
+.wrapper{
+    text-align: center;
+}
+
+.q{
+    text-align: center;
+    background-color: lightblue;
+    margin: 0.5rem auto;
+    width: 40rem;
+}
+
+.btn{
+    text-align: center;
+    margin: 1rem;
+}
+
