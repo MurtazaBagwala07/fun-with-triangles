@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+body{
+    background-image: url("img/bg.jpg");
+}
+
+.section{
+    text-align: center;
+}
+
+.header{
+    text-align: center;
+    margin-top: 5rem;
+    
+}
+.goBack{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    outline: none;
+}
+.goBack:hover{
+    background-color: lightblue;
+}
+
+.formulaSelectionForm{
+    text-align: center;
+}
+
+.areaCalBlock{
+display: none;
+}
+
+.formQuiz{
+    text-align: left;
+}
+.formQuiz label.question{
+    display: block;
+}
+.radio input{
+cursor: pointer;
+padding: 0.5rem 0.5rem;
+display: inline-block;
+}
+.radio{
+    padding: 0.5rem 1rem;
+    white-space: normal;
+}
+.radio label{
+    cursor: pointer;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    display: inline-block;
+}
+.ow{
+    background-color: var(--off-white);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.error{
+    display: none;
+}
+
+.outputHere{
+    background-color: white;
+    width: 10rem;
+    height: 2rem;
+    margin: auto;
+}
+
