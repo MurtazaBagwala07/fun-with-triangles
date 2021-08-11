@@ -11,7 +11,13 @@ function calcHypo(){
     
     total=Math.sqrt(total);
     // console.log(Math.pow(angOne,2)+Math.pow(angTwo,2))
-    outp.innerHTML="Your Answer is : " + total.toFixed(3);
+    if(isNaN(angOne)||isNaN(angTwo)){
+        alert("Fill Values");
+    }
+    else{
+        outp.innerHTML="Your Answer is : " + total.toFixed(3);
+    }
+    
     // console.log(angTwo);
     // console.log(angOne);
 }
