@@ -13,7 +13,7 @@ function calc(){
 
     console.log(angThree+angTwo+angOne);
     
-    if(isNaN(angOne)||isNaN(angTwo)||isNaN(angleThree)){
+    if(isNaN(angOne)||isNaN(angTwo)||isNaN(angThree)){
         alert("Fill Values");
     } 
    else{
