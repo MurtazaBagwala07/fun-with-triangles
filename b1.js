@@ -18,7 +18,7 @@ function calc(){
     } 
    else{
        if(angThree+angTwo+angOne==180){
-           outp.innerHTML="POSSIBLE"
+           outp.innerHTML="TRAINGLE IS POSSIBLE"
        }
        else{
            outp.innerHTML="IMPOSSIBLE(In voice of thanos)"
