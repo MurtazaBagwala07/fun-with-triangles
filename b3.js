@@ -31,7 +31,7 @@ document.forms[1].addEventListener('submit', (e)=>{
     e.preventDefault();
     const b= Number(inputInOption1[0].value)
     const h= Number(inputInOption1[1].value)
-    areaShowHere[0].innerText = (b*h)/2
+    areaShowHere[0].innerText = (b*h)/2;
 
 }, false)
 
