@@ -14,6 +14,9 @@ function calcHypo(){
     if(isNaN(angOne)||isNaN(angTwo)){
         alert("Fill Values");
     }
+    else if(angOne<0||angTwo<0){
+        alert("negative values not allowed")
+    }
     else{
         outp.innerHTML="Your Answer is : " + total.toFixed(3);
     }
